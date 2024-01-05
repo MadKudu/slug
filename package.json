@@ -1,5 +1,5 @@
 {
-    "name": "slug",
+    "name": "@madkudu/slug",
     "description": "slugifies even utf-8 chars!",
     "version": "2.1.1",
     "homepage": "https://github.com/Trott/node-slug",
@@ -21,9 +21,6 @@
     "scripts": {
         "test": "eslint . && c8 mocha ./test/*.test.* --require should --reporter spec --colors"
     },
-    "dependencies": {
-        "unicode": ">= 0.3.1"
-    },
     "devDependencies": {
         "c8": "^7.0.0",
         "eslint": "^6.8.0",
@@ -38,5 +35,8 @@
             "type": "MIT",
             "url": "http://github.com/Trott/node-slug/raw/master/LICENSE"
         }
-    ]
+    ],
+    "dependencies": {
+        "@madkudu/unicode": "^14.0.0"
+    }
 }
